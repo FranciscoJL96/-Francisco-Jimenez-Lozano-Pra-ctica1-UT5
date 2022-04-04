@@ -30,7 +30,7 @@ let Ejercicio3 = function()
     }
     console.log(Arraynumero.sort(function(a, b){return a - b}));
 
-    for(var i = 0; i < Arraynumero.length; i++)
+    for(var i = 0; i < Arraynumero.length; i++) /*Esto es un filter*/
     {
         let multiplo3 = Arraynumero[i];
 
