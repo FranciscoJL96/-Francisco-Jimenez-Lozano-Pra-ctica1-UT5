@@ -10,7 +10,7 @@ let Ejercicio2 = function(...informacionAlumno)
         {
             let list = informacionAlumno[i];
             let head = "Nombre: "+list[0]+" -- "+"Curso: "+list[1] + "-- Asignaturas: ";
-            for(var j = 2; j < list.length; j++)
+            for(var j = 2; j < list.length; j++) /*Esto es un join*/
             {
                 head += list[j]+"/";
             }
