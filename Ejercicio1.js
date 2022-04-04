@@ -1,6 +1,6 @@
 let Ejercicio1 = function(texto,bool,cadenaDenumero,alerta)
 {
-    if(typeof(texto) != "string")
+    if(typeof(texto) != "string") /*Ojo porque si uno no coincide con el esperado no debemos continuar haciendo las otras acciones*/
     {
         console.log("El para metro es incorrecto");
     }
